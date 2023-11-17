@@ -33,3 +33,32 @@ body{
     grid-template-rows: repeat(3,1fr);
     
 }
+#card-holder{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(max(3,auto-fill), 1fr);
+    
+
+}
+.cards{
+    display: grid;
+    background-color: grey;
+    border-radius: 25px;
+    justify-content: center;
+    padding-top: 5px;
+    padding-left: 10px;
+
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+
+}
+.header{
+    grid-row: 0/1;
+    grid-column: 0/1;
+}
+.social-links>li{
+
+}
